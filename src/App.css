@@ -1,38 +1,74 @@
-.App {
+.app {
+  margin: 0;
   text-align: center;
+  background: linear-gradient(green, pink);
+  height: 100vh;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  padding: 1rem 0 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  padding: 0 6px;
+  min-width: 18rem;
+  max-width: fit-content;
+  height: 2.5rem;
+  margin:  3px 0;
+  border-radius: .3rem;
+  border: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  margin-left: 5px;
+  width: 4rem;
+  height: 2rem;
+  border-radius: .3rem;
+  border: 1px solid rgb(174, 174, 6);
+}
+
+ul {
+  margin: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: .4rem auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 23rem;
+  width: 90vw;
+  text-align: start;
+  height: 2rem;
+  border-radius: .3rem;
+  background-color: aliceblue;
+  border: 1px solid black;
 }
 
-.App-link {
-  color: #61dafb;
+li input {
+  border: none;
+  margin: auto auto auto 5px;
+  height: inherit;
+  min-width:2rem;
+background-color: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clear-button {
+  margin: 0;
+  font-size: 1.5rem;
+  width: 2rem;
+  background-color: rgb(214, 213, 142);
+  border: 1px solid rgb(255, 255, 255);
+}
+.done{
+  text-decoration: line-through;
+}
+.hide{
+  display: none;
+}
+
+div label{
+margin: 0 1rem;
+font-weight: 600;
 }
