@@ -1,18 +1,30 @@
 # TODOS React App
 
-## Available Scripts
+# Get Started
 
-In the project directory, you can run:
+<ol>
+<li>Clone the repository.
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+git clone https://github.com/LevkoTkach/Portfolio
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</li>
+<li>Open terminal</li>
+<li>
 
-### `npm run build`
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</li>
+<li>
+
+```
+npm start
+```
+Runs the app in the development mode.
+</li>
+</ol>
